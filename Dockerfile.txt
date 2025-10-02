@@ -1,0 +1,16 @@
+# Base image for Python applications
+FROM python:3.9-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the requirements file and install dependencies
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy the rest of the application files
+COPY . .
+
+# Command to run your Streamlit application
+# **REPLACE 'app.py' with your actual Streamlit file name**
+CMD ["streamlit", "run", "app.py", "--server.port", "8501", "--server.enableCORS", "false", "--server.enableXsrfProtection", "false"]

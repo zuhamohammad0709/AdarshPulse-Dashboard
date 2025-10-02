@@ -1,0 +1,11 @@
+﻿village_id,village_name,population,households,schools,toilets,PHCs,water_points,electricity_hours,lat,lon,gaps_list,gaps,priority_score,color
+V001,Rampur,1500,300,1,300,1,6,10,25.317,82.973,['Schools'],Schools,1,green
+V002,Shantinagar,1200,250,1,250,1,5,10,25.327,82.983,['Schools'],Schools,1,green
+V003,Kishanpur,1800,400,1,400,1,8,10,25.337,82.993,['Schools'],Schools,1,green
+V004,Anandpur,900,180,1,180,1,3,10,25.347,83.003,['Water'],Water,1,green
+V005,Bhavanipur,2000,450,1,450,1,9,10,25.357,83.013,['Schools'],Schools,1,green
+V006,Haripur,1300,260,1,260,1,5,10,25.367,83.023,"['Schools', 'Water']","Schools, Water",2,green
+V007,Gokulpur,1600,320,1,320,1,6,10,25.377,83.033,"['Schools', 'Water']","Schools, Water",2,green
+V008,Satyapur,1400,280,1,280,1,5,10,25.387,83.043,"['Schools', 'Water']","Schools, Water",2,green
+V009,Navgaon,1700,340,1,340,1,6,10,25.397,83.053,"['Schools', 'Water']","Schools, Water",2,green
+V010,Devnagar,1100,220,1,220,1,4,10,25.407,83.063,"['Schools', 'Water']","Schools, Water",2,green
